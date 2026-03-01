@@ -45,9 +45,7 @@ addLayer("p", {
     description: "Double your point gain.",
     cost: new Decimal(5),
         effect() {
-        effect() {
-    return new Decimal(10)
-}
+        return player.points.add(1).pow(0.15)
     },
     effectDisplay() { return format(upgradeEffect(this.layer, this.id))+"x" },
     },
