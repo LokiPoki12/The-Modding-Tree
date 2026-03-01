@@ -26,8 +26,8 @@ addLayer("p", {
     ],
     upgrades: {
     11: {
-    title: "Make this whatever you want!",
-    description: "Double your point gain.",
+    title: "Your mother",
+    description: "makes your mother twice as fat",
     cost: new Decimal(1),
     },        
 
