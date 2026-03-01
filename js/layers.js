@@ -31,5 +31,11 @@ addLayer("p", {
     cost: new Decimal(1),
     },        
     },
+    upgrades: {
+    12: {
+    title: "Your mother",
+    description: "makes your mother twice as fat",
+    cost: new Decimal(1),
+    },
     layerShown(){return true}
 })
