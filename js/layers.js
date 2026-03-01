@@ -30,7 +30,6 @@ addLayer("p", {
     description: "makes your mother twice as fat",
     cost: new Decimal(1),
     },        
-
     },
     layerShown(){return true}
 })
