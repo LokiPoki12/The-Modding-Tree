@@ -31,15 +31,6 @@ addLayer("p", {
     cost: new Decimal(1),
     },
     },
-        
-    upgrades: {
-    12: {
-    title: "Make this whatever you want!x2",
-    description: "Double your point gaiasdn.",
-    cost: new Decimal(2),
-    },
-    },
-
     
     layerShown(){return true}
 })
