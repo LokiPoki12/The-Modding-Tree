@@ -47,11 +47,11 @@ addLayer("p", {
         return player.points.add(1).pow(0.15)
     },
     effectDisplay() { return format(upgradeEffect(this.layer, this.id))+"x" },
+    },
         gainMult() {
         let mult = new Decimal(1)
         if (hasUpgrade('p', 13)) mult = mult.times(upgradeEffect('p', 13))
         return mult
-    },
     },
     },
     
