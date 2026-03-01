@@ -32,7 +32,7 @@ addLayer("p", {
     },
     },
         upgrades: {
-    12: {
+    14: {
     title: "Make this whatever you want!x2",
     description: "Double your point gaiasdn.",
     cost: new Decimal(2),
