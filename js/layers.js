@@ -48,11 +48,11 @@ addLayer("p", {
     },
     effectDisplay() { return format(upgradeEffect(this.layer, this.id))+"x" },
     },
+    },
         gainMult() {
         let mult = new Decimal(1)
         if (hasUpgrade('p', 13)) mult = mult.times(upgradeEffect('p', 13))
         return mult
-    },
     },
     
     
